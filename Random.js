@@ -4,7 +4,7 @@ const shuffle = ([...arr]) =>
   while (m)
  {
    const i = Math.floor(Math.random() * m--);
-    [arr[m], arr[i]] = [arr[i], arr[m]];
+   [arr[m], arr[i]] = [arr[i], arr[m]];
  }
   return arr;
 };
