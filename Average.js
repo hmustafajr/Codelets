@@ -8,6 +8,6 @@ Array.prototype.reduce() adds each value to an accumulator starting with the val
 
 
 const averageBy = (arr, fn) =>
-{  
+{  // originally written without curly braces remove later
   arr.map(typeof fn === 'function' ? fn : val => val[fn]).reduce((acc, val) => acc + val, 0) / arr.length;
-}
+} // originally written without curly braces remove later
