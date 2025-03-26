@@ -1,6 +1,6 @@
 /*
 Converts an int to a suffixed string
-adding AM or PM based on the value
+adds AM or PM based on the value
 Uses the modulo operator (%) and conditional checks to transform an integer to a stringified 12-hour format with meridiem suffix
 */
 
